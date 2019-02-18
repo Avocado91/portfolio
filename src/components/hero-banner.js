@@ -1,14 +1,14 @@
-import React from 'react'
-import heroBkgImage from './../images/hero-bkg.jpg';
+import React from 'react';
 import './../styles/components/hero-banner.css';
 
 const HeroBanner = () => (
   <div className='hero-banner'>
-    <img className='hero-banner__image' src={heroBkgImage} alt='teal background' />
-    <h1>T.J. Ruggles | Front-End Developer</h1>
-    <h3>I'm a Web Developer based out of Ottawa, Canada</h3>
-    <p>Learn more about what I do</p>
-    <p>arrow down</p>
+    <div className='hero-banner-text'>
+      <h1 className='hero-banner-text__title'>Hello, I'm <span className='hero-banner-text__name'>T.J. Ruggles</span>.</h1>
+      <h3 className='hero-banner-text__subtitle'>I'm a Front End Developer.</h3>
+      <p className='hero-banner-text__paragraph'>Learn more about what I do</p>
+      <a href='#about'><div className="hero-banner-text__arrow"></div></a>
+    </div>
   </div>
 );
 
