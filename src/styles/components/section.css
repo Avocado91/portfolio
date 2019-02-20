@@ -5,8 +5,16 @@
 
 .section__title {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight:400;
-  color: #269785;
+  color: #333;
   text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.section__hr {
+  width: 5rem;
+  height: 0;
+  border: none;
+  border-top: 5px solid #269785;
 }
