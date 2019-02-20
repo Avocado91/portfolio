@@ -13,22 +13,22 @@ const About = () => (
         <div>
           <i className='fas fa-mobile-alt'></i>
           <h3>Responsive</h3>
-          <p>My number one priority is making sure everything looks great on all devices.</p>
+          <p>Always striving to make sure everything looks great on all devices.</p>
         </div>
         <div>
           <i className='fas fa-rocket'></i>
           <h3>Fast</h3>
-          <p>Speed is of utmost importance because nobody likes waiting around for load times. </p>
-        </div>
-        <div>
-          <i className='far fa-lightbulb'></i>
-          <h3>Intuitive</h3>
-          <p>Strong preference for clean, easy to use UI/UX</p>
+          <p>Committed to speed because nobody likes long load times.</p>
         </div>
         <div>
           <i className='far fa-check-circle'></i>
           <h3>Dynamic</h3>
-          <p>Making boring static sites pop into life is what I live for.</p>
+          <p>Making boring static sites pop into life with dynamic interactivity.</p>
+        </div>
+        <div>
+          <i className='far fa-lightbulb'></i>
+          <h3>Intuitive</h3>
+          <p>Strong preference for clean, easy to use UI/UX.</p>
         </div>
       </div>
       <div className='flex-container'>
