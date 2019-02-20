@@ -1,6 +1,6 @@
 .skills {
   margin-top: 4rem;
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
   text-align: center;
 }
 
@@ -9,7 +9,7 @@
   margin-top: 2rem;
   margin-bottom: .8rem;
   font-weight: 400;
-  color: #555;
+  color: #666;
 }
 
 .skills__description {
@@ -21,10 +21,70 @@
   max-width: 13rem;
 }
 
-
 .bio {
-  font-size: 1.3rem;
-  width: 50rem;
+  font-size: 1.1rem;
+  width: 60%;
   line-height: 1.5;
   margin-right: 3rem;
+}
+
+.bio__text {
+  margin: 0;
+}
+
+.tools {
+  width: 40%
+}
+
+.tool {
+  text-align: center;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  width: 5.8rem;
+}
+
+.tool__logo {
+  font-size: 4.5rem;
+  margin-bottom: 0;
+}
+
+.tool__logo--html {
+  color: rgb(227, 77, 50);
+}
+
+.tool__logo--css {
+  color: rgb(28, 112, 175);
+}
+
+.tool__logo--js {
+  color: rgb(238, 215, 79);
+}
+
+.tool__logo--react {
+  color: rgb(94, 212, 240);
+}
+
+.tool__logo--vue {
+  color: rgb(0, 179, 133);
+}
+
+.tool__logo--npm {
+  color: rgb(197, 52, 57);
+}
+
+.tool__logo--sass {
+  color: rgb(199, 100, 145);
+}
+
+.tool__logo--git {
+  color: rgb(233, 76, 58);
+}
+
+.tool__logo--github {
+  color: rgb(81, 41, 114);
+}
+
+.tool__text {
+  font-size: 1rem;
+  margin-top: 1rem;
 }

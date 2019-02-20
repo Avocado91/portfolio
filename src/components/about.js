@@ -42,23 +42,47 @@ const About = () => (
       </div>
       <div className='flex-container'>
         <div className='bio'>
-          <p>
-            Hi, I'm T.J., a front-end developer that loves building web applications, usually with React. I'm passionate about learning new technologies, as well as focused on constantly working to improve my current skill set. Outside of web development I also love playing video games, chilling out watching movies, jamming on the guitar, or playing and watching hockey. In this section you can preview some of the tools that I'm familiar with. Down below you can view some of the things I've worked on as well as fill out a form to get in contact with me.
+          <p className='bio__text'>
+            Hi, I'm T.J., a front-end developer that loves building web applications, usually with React. I'm passionate about learning new technologies, as well as focused on constantly working to improve my current skill set. Outside of web development I also love playing video games, chilling out watching movies, jamming on the guitar, or playing and watching hockey. In this section you can preview some of the tools that I use. Down below you can view some of the things I've worked on as well as fill out a form to get in contact with me.
           </p>
         </div>
-        <div className='tools'>
-          <img src='#' alt='logo'/>
-          <img src='#' alt='logo'/>
-          <img src='#' alt='logo'/>
-          <img src='#' alt='logo'/>
-          <img src='#' alt='logo'/>
-          <img src='#' alt='logo'/>
-          <img src='#' alt='logo'/>
-          <img src='#' alt='logo'/>
-          <img src='#' alt='logo'/>
-          <img src='#' alt='logo'/>
-          <img src='#' alt='logo'/>
-          <img src='#' alt='logo'/>
+        <div className='tools flex-container flex-container--full flex-container--wrap flex-container--flex-start'>
+        <div className='tool'>
+          <i className='fab fa-html5 tool__logo tool__logo--html'></i>
+          <p className='tool__text'>HTML5</p>
+        </div>
+        <div className='tool'>
+          <i className='fab fa-css3-alt tool__logo tool__logo--css'></i>
+          <p className='tool__text'>CSS3</p>
+        </div>
+        <div className='tool'>
+          <i className='fab fa-js-square tool__logo tool__logo--js'></i>
+          <p className='tool__text'>JavaScript</p>
+        </div>
+        <div className='tool'>
+          <i className='fab fa-react tool__logo tool__logo--react'></i>
+          <p className='tool__text'>React</p>
+        </div>
+        <div className='tool'>
+          <i className='fab fa-vuejs tool__logo tool__logo--vue'></i>
+          <p className='tool__text'>Vue</p>
+        </div>
+        <div className='tool'>
+          <i className='fab fa-npm tool__logo tool__logo--npm'></i>
+          <p className='tool__text'>npm</p>
+        </div>
+        <div className='tool'>
+          <i className='fab fa-sass tool__logo tool__logo--sass'></i>
+          <p className='tool__text'>SCSS</p>
+        </div>
+        <div className='tool'>
+          <i className='fas fa-code-branch tool__logo tool__logo--git'></i>
+          <p className='tool__text'>Git</p>
+        </div>
+        <div className='tool'>
+          <i className='fab fa-github tool__logo tool__logo--github'></i>
+          <p className='tool__text'>Github</p>
+        </div>
         </div>
       </div>
     </div>
