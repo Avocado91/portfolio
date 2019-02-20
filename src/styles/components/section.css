@@ -1,0 +1,12 @@
+.section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.section__title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight:400;
+  color: #269785;
+  text-transform: uppercase;
+}
