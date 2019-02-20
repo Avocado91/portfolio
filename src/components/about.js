@@ -3,6 +3,7 @@ import './../styles/components/about.css';
 import './../styles/components/wrapper.css';
 import './../styles/components/section.css';
 import './../styles/components/flex-container.css';
+import './../styles/components/logo-layout.css';
 
 const About = () => (
   <div className='wrapper'>
@@ -10,25 +11,33 @@ const About = () => (
       <h1 className='section__title'>About</h1>
       <hr className='section__hr'/>
       <div className='skills flex-container flex-container--full'>
-        <div>
-          <i className='fas fa-mobile-alt'></i>
-          <h3>Responsive</h3>
-          <p>Always striving to make sure everything looks great on all devices.</p>
+        <div className='skill'>
+          <div className='logo-layout__bkg'>
+            <i className='fas fa-mobile-alt logo-layout__icon'></i>
+          </div>
+          <h3 className='skills__title'>Responsive</h3>
+          <p className='skills__description'>Always striving to make sure everything looks great on all devices.</p>
         </div>
-        <div>
-          <i className='fas fa-rocket'></i>
-          <h3>Fast</h3>
-          <p>Committed to speed because nobody likes long load times.</p>
+        <div className='skill'>
+        <div className='logo-layout__bkg'>
+          <i className='fas fa-rocket logo-layout__icon logo-layout__icon--rocket'></i>
         </div>
-        <div>
-          <i className='far fa-check-circle'></i>
-          <h3>Dynamic</h3>
-          <p>Making boring static sites pop into life with dynamic interactivity.</p>
+        <h3 className='skills__title'>Fast</h3>
+          <p className='skills__description'>Committed to speed because nobody likes long load times.</p>
         </div>
-        <div>
-          <i className='far fa-lightbulb'></i>
-          <h3>Intuitive</h3>
-          <p>Strong preference for clean, easy to use UI/UX.</p>
+        <div className='skill'>
+        <div className='logo-layout__bkg'>
+          <i className='far fa-check-circle logo-layout__icon'></i>
+        </div>
+        <h3 className='skills__title'>Dynamic</h3>
+          <p className='skills__description'>Making boring static sites pop into life with dynamic interactivity.</p>
+        </div>
+        <div className='skill'>
+        <div className='logo-layout__bkg'>
+          <i className='far fa-lightbulb logo-layout__icon'></i>
+        </div>
+        <h3 className='skills__title'>Intuitive</h3>
+          <p className='skills__description'>Strong preference for clean, easy to use UI/UX.</p>
         </div>
       </div>
       <div className='flex-container'>

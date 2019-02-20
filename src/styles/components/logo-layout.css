@@ -1,0 +1,19 @@
+.logo-layout__bkg {
+background: #269785;
+width: 5rem;
+height: 5rem;
+margin: auto;
+transform: rotate(45deg);
+}
+
+.logo-layout__icon {
+  font-size: 3rem;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%) rotate(-45deg);
+  color: white;
+}
+
+.logo-layout__icon--rocket {
+  transform: translateY(-37%) rotate(-45deg);
+}

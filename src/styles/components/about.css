@@ -4,6 +4,23 @@
   text-align: center;
 }
 
+.skills__title {
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  margin-bottom: .8rem;
+  font-weight: 400;
+  color: #555;
+}
+
+.skills__description {
+  font-size: 1rem;
+  margin-top: 0;
+}
+
+.skill {
+  max-width: 13rem;
+}
+
 
 .bio {
   font-size: 1.3rem;
