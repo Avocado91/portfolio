@@ -26,6 +26,17 @@
   width: 60%;
   line-height: 1.5;
   margin-right: 3rem;
+  float: left;
+}
+
+.bio__img {
+  width: 200px;
+  border-radius: 100px;
+  float: left;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  -webkit-shape-outside:circle();
+  shape-outside:circle();
 }
 
 .bio__text {
@@ -40,11 +51,11 @@
   text-align: center;
   margin-left: 2rem;
   margin-bottom: 2rem;
-  width: 5.8rem;
+  width: 3rem;
 }
 
 .tool__logo {
-  font-size: 4.5rem;
+  font-size: 3.7rem;
   margin-bottom: 0;
 }
 
@@ -62,10 +73,6 @@
 
 .tool__logo--react {
   color: rgb(94, 212, 240);
-}
-
-.tool__logo--vue {
-  color: rgb(0, 179, 133);
 }
 
 .tool__logo--npm {

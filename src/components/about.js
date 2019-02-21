@@ -42,8 +42,9 @@ const About = () => (
       </div>
       <div className='flex-container'>
         <div className='bio'>
+          <img className='bio__img' src='https://upload.wikimedia.org/wikipedia/commons/e/e0/PlaceholderLC.png' alt='A picture of me' />
           <p className='bio__text'>
-            Hi, I'm T.J., a front-end developer that loves building web applications, usually with React. I'm passionate about learning new technologies, as well as focused on constantly working to improve my current skill set. Outside of web development I also love playing video games, chilling out watching movies, jamming on the guitar, or playing and watching hockey. In this section you can preview some of the tools that I use. Down below you can view some of the things I've worked on as well as fill out a form to get in contact with me.
+            Hi, I'm T.J., a front-end developer that loves building web applications, usually with React. I'm passionate about learning new technologies, as well as focused on constantly working to improve my current skill set. In this section you can preview some of the tools that I use. Down below you can view some of the things I've worked on as well as fill out a form to get in contact with me.
           </p>
         </div>
         <div className='tools flex-container flex-container--full flex-container--wrap flex-container--flex-start'>
@@ -62,10 +63,6 @@ const About = () => (
         <div className='tool'>
           <i className='fab fa-react tool__logo tool__logo--react'></i>
           <p className='tool__text'>React</p>
-        </div>
-        <div className='tool'>
-          <i className='fab fa-vuejs tool__logo tool__logo--vue'></i>
-          <p className='tool__text'>Vue</p>
         </div>
         <div className='tool'>
           <i className='fab fa-npm tool__logo tool__logo--npm'></i>
