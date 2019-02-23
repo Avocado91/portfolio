@@ -1,0 +1,23 @@
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project {
+  flex: 0 0 33.33%;
+}
+
+.project__img-container {
+  transition: .5s ease-out;
+  width: 100%;
+  height: 100%;
+}
+
+.project__img-container:hover {
+  opacity: 0;
+}
+
+.project__img {
+  width: 100%;
+  height: 100%;
+}

@@ -1,51 +1,43 @@
 import React from 'react';
+import './../styles/components/section.css';
+import './../styles/components/projects.css';
 
 const Projects = () => (
-  <div>
-    <h1>Projects</h1>
-    <hr />
-    <div>
-      <div>
-        <h2>Title</h2>
-        <img src='#' alt='logo'/>
-        <img src='#' alt='logo'/>
-        <img src='#' alt='logo'/>
-      </div>
-      <div>
-        <img srx=''></img>
-      </div>
-      <div>
-        <p>Description goes here</p>
-      </div>
-    </div>
-
-    <div>
-      <div>
-        <h2>Title2</h2>
-        <img src='#' alt='logo'/>
-        <img src='#' alt='logo'/>
-        <img src='#' alt='logo'/>
-      </div>
-      <div>
-        <img srx=''></img>
-      </div>
-      <div>
-        <p>Description goes here</p>
-      </div>
-    </div>
-
-    <div>
-      <div>
-        <h2>Title3</h2>
-        <img src='#' alt='logo'/>
-        <img src='#' alt='logo'/>
-        <img src='#' alt='logo'/>
-      </div>
-      <div>
-        <img srx=''></img>
-      </div>
-      <div>
-        <p>Description goes here</p>
+  <div className='section section--off-white'>
+    <div className='wrapper'>
+      <h1 className='section__title'>Projects</h1>
+      <hr className='section__hr' />
+      <div className='projects'>
+        <div className='project'>
+          <div className='project__img-container'>
+            <img className='project__img' src='https://i.vimeocdn.com/video/525418149_1280x720.jpg' alt='image of project' />
+          </div>
+        </div>
+        <div className='project'>
+          <div className='project__img-container'>
+            <img className='project__img' src='https://i.vimeocdn.com/video/525418149_1280x720.jpg' alt='image of project' />
+          </div>
+        </div>
+        <div className='project'>
+          <div className='project__img-container'>
+            <img className='project__img' src='https://i.vimeocdn.com/video/525418149_1280x720.jpg' alt='image of project' />
+          </div>
+        </div>
+        <div className='project'>
+          <div className='project__img-container'>
+            <img className='project__img' src='https://i.vimeocdn.com/video/525418149_1280x720.jpg' alt='image of project' />
+          </div>
+        </div>
+        <div className='project'>
+          <div className='project__img-container'>
+            <img className='project__img' src='https://i.vimeocdn.com/video/525418149_1280x720.jpg' alt='image of project' />
+          </div>
+        </div>
+        <div className='project'>
+          <div className='project__img-container'>
+            <img className='project__img' src='https://i.vimeocdn.com/video/525418149_1280x720.jpg' alt='image of project' />
+          </div>
+        </div>
       </div>
     </div>
   </div>

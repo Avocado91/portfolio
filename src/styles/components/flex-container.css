@@ -13,3 +13,7 @@
 .flex-container--flex-start {
   align-items: flex-start;
 }
+
+.flex-container--shrink {
+  flex-shrink: 1;
+}

@@ -6,8 +6,8 @@ import './../styles/components/flex-container.css';
 import './../styles/components/logo-layout.css';
 
 const About = () => (
-  <div className='wrapper'>
-    <div className='section' id='about'>
+  <div className='section' id='about'>
+    <div className='wrapper'>
       <h1 className='section__title'>About</h1>
       <hr className='section__hr'/>
       <div className='skills flex-container flex-container--full'>
