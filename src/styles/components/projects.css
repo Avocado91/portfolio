@@ -5,20 +5,7 @@
 
 .project {
   flex: 0 0 33.33%;
-}
-
-.project__img-container {
-  transition: .5s ease-out;
-  width: 100%;
-  height: 100%;
-}
-
-.project__img-container--test {
-  display: none;
-}
-
-.project__img-container:hover {
-  opacity: 0;
+  position: relative;
 }
 
 .project__img {
@@ -28,13 +15,25 @@
 
 .project__overlay-container {
   text-align: center;
-  padding: 2rem;
   font-size: 1rem;
+  position: absolute;
+  top: 0;
+  background: #f3f3f3;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  opacity: 0;
+  transition: all .5s ease-in;
+}
+
+.project__overlay-container:hover {
+  opacity: 1;
 }
 
 .project__title {
   font-weight: 400;
   font-size: 1.4rem;
+  margin-top: 3rem;
   margin-bottom: 0;
   color: #333;
 }
