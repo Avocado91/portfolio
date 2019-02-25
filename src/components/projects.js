@@ -11,49 +11,73 @@ const Projects = () => (
         <div className='project'>
           <img className='project__img' src='https://estampasuenos.cl/wp-content/uploads/2017/10/descarga3.png' alt='image of project' />
           <div className='project__overlay-container'>
-            <h3 className='project__title'>Project Name</h3>
-            <p className='project__tools'>Project tools go here</p>
-            <button className='project__button'>Learn More</button>
+            <div className='project__overlay--slidedown'>
+              <h3 className='project__title'>Project Name</h3>
+              <p className='project__tools'>Project tools go here</p>
+            </div>
+            <div className='project__overlay--slideup'>
+              <button className='project__button'>Learn More</button>
+            </div>
           </div>
         </div>
         <div className='project'>
           <img className='project__img' src='https://estampasuenos.cl/wp-content/uploads/2017/10/descarga3.png' alt='image of project' />
           <div className='project__overlay-container'>
-            <h3 className='project__title'>Project Name</h3>
-            <p className='project__tools'>Project tools go here</p>
-            <button className='project__button'>Learn More</button>
+            <div className='project__overlay--slidedown'>
+              <h3 className='project__title'>Project Name</h3>
+              <p className='project__tools'>Project tools go here</p>
+            </div>
+            <div className='project__overlay--slideup'>
+              <button className='project__button'>Learn More</button>
+            </div>
           </div>
         </div>
         <div className='project'>
           <img className='project__img' src='https://estampasuenos.cl/wp-content/uploads/2017/10/descarga3.png' alt='image of project' />
           <div className='project__overlay-container'>
-            <h3 className='project__title'>Project Name</h3>
-            <p className='project__tools'>Project tools go here</p>
-            <button className='project__button'>Learn More</button>
+            <div className='project__overlay--slidedown'>
+              <h3 className='project__title'>Project Name</h3>
+              <p className='project__tools'>Project tools go here</p>
+            </div>
+            <div className='project__overlay--slideup'>
+              <button className='project__button'>Learn More</button>
+            </div>
           </div>
         </div>
         <div className='project'>
           <img className='project__img' src='https://estampasuenos.cl/wp-content/uploads/2017/10/descarga3.png' alt='image of project' />
           <div className='project__overlay-container'>
-            <h3 className='project__title'>Project Name</h3>
-            <p className='project__tools'>Project tools go here</p>
-            <button className='project__button'>Learn More</button>
+            <div className='project__overlay--slidedown'>
+              <h3 className='project__title'>Project Name</h3>
+              <p className='project__tools'>Project tools go here</p>
+            </div>
+            <div className='project__overlay--slideup'>
+              <button className='project__button'>Learn More</button>
+            </div>
           </div>
         </div>
         <div className='project'>
           <img className='project__img' src='https://estampasuenos.cl/wp-content/uploads/2017/10/descarga3.png' alt='image of project' />
           <div className='project__overlay-container'>
-            <h3 className='project__title'>Project Name</h3>
-            <p className='project__tools'>Project tools go here</p>
-            <button className='project__button'>Learn More</button>
+            <div className='project__overlay--slidedown'>
+              <h3 className='project__title'>Project Name</h3>
+              <p className='project__tools'>Project tools go here</p>
+            </div>
+            <div className='project__overlay--slideup'>
+              <button className='project__button'>Learn More</button>
+            </div>
           </div>
         </div>
         <div className='project'>
           <img className='project__img' src='https://estampasuenos.cl/wp-content/uploads/2017/10/descarga3.png' alt='image of project' />
           <div className='project__overlay-container'>
-            <h3 className='project__title'>Project Name</h3>
-            <p className='project__tools'>Project tools go here</p>
-            <button className='project__button'>Learn More</button>
+            <div className='project__overlay--slidedown'>
+              <h3 className='project__title'>Project Name</h3>
+              <p className='project__tools'>Project tools go here</p>
+            </div>
+            <div className='project__overlay--slideup'>
+              <button className='project__button'>Learn More</button>
+            </div>
           </div>
         </div>
       </div>

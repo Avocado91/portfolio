@@ -23,11 +23,29 @@
   width: 100%;
   overflow: hidden;
   opacity: 0;
-  transition: all .5s ease-in;
+  transition: all .4s ease-out;
 }
 
 .project__overlay-container:hover {
   opacity: 1;
+}
+
+.project__overlay--slidedown {
+  transform: translateY(-200%);
+  transition: all .3s ease-out;
+}
+
+.project__overlay-container:hover .project__overlay--slidedown {
+  transform: translateY(0);
+}
+
+.project__overlay--slideup {
+  transform: translateY(250%);
+  transition: all .3s ease-out;
+}
+
+.project__overlay-container:hover .project__overlay--slideup {
+  transform: translateY(0);
 }
 
 .project__title {
