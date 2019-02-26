@@ -23,3 +23,17 @@
 .form__input:focus {
   outline: none;
 }
+
+.to-top {
+  text-align: center;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.to-top__button {
+  padding: 10px;
+  background: #269785;
+  border: none;
+}

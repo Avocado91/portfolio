@@ -1,4 +1,5 @@
 import React from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import './../styles/components/contact.css';
 import './../styles/components/button.css';
 
@@ -23,6 +24,9 @@ const Contact = () => (
           </div>
           <input className='button button--contact' type="submit" value="Send Message" />
         </form>
+      </div>
+      <div className='to-top'>
+      <AnchorLink href='#landing-page'><button className='to-top__button'>^</button></AnchorLink>
       </div>
     </div>
   </div>

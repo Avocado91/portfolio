@@ -3,7 +3,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import './../styles/components/hero-banner.css';
 
 const HeroBanner = () => (
-  <div className='hero-banner'>
+  <div className='hero-banner' id='landing-page'>
     <div className='hero-banner-text'>
       <h1 className='hero-banner-text__title'>Hello, I'm <span className='hero-banner-text__name'>T.J. Ruggles</span>.</h1>
       <h3 className='hero-banner-text__subtitle'>I'm a Front End Developer.</h3>
