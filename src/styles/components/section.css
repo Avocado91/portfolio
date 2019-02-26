@@ -7,6 +7,10 @@
   background: #f3f3f3;
 }
 
+.section--dark {
+  background: #252933;
+}
+
 .section__title {
   text-align: center;
   font-size: 2.5rem;
@@ -16,10 +20,18 @@
   margin-bottom: 0;
 }
 
+.section__title--white {
+  color: #fff;
+}
+
 .section__hr {
   width: 5rem;
   height: 0;
   border: none;
   border-top: 5px solid #269785;
   margin-bottom: 5rem;
+}
+
+.section__hr--contact {
+  margin-bottom: 3rem;
 }

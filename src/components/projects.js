@@ -1,6 +1,7 @@
 import React from 'react';
 import './../styles/components/section.css';
 import './../styles/components/projects.css';
+import './../styles/components/button.css'
 
 const Projects = () => (
   <div className='section section--off-white'>
@@ -16,7 +17,7 @@ const Projects = () => (
               <p className='project__tools'>Project tools go here</p>
             </div>
             <div className='project__overlay--slideup'>
-              <button className='project__button'>Learn More</button>
+              <button className='button'>Learn More</button>
             </div>
           </div>
         </div>
@@ -28,7 +29,7 @@ const Projects = () => (
               <p className='project__tools'>Project tools go here</p>
             </div>
             <div className='project__overlay--slideup'>
-              <button className='project__button'>Learn More</button>
+              <button className='button'>Learn More</button>
             </div>
           </div>
         </div>
@@ -40,7 +41,7 @@ const Projects = () => (
               <p className='project__tools'>Project tools go here</p>
             </div>
             <div className='project__overlay--slideup'>
-              <button className='project__button'>Learn More</button>
+              <button className='button'>Learn More</button>
             </div>
           </div>
         </div>
@@ -52,7 +53,7 @@ const Projects = () => (
               <p className='project__tools'>Project tools go here</p>
             </div>
             <div className='project__overlay--slideup'>
-              <button className='project__button'>Learn More</button>
+              <button className='button'>Learn More</button>
             </div>
           </div>
         </div>
@@ -64,7 +65,7 @@ const Projects = () => (
               <p className='project__tools'>Project tools go here</p>
             </div>
             <div className='project__overlay--slideup'>
-              <button className='project__button'>Learn More</button>
+              <button className='button'>Learn More</button>
             </div>
           </div>
         </div>
@@ -76,7 +77,7 @@ const Projects = () => (
               <p className='project__tools'>Project tools go here</p>
             </div>
             <div className='project__overlay--slideup'>
-              <button className='project__button'>Learn More</button>
+              <button className='button'>Learn More</button>
             </div>
           </div>
         </div>
