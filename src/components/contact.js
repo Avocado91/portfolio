@@ -26,7 +26,7 @@ const Contact = () => (
         </form>
       </div>
       <div className='to-top'>
-      <AnchorLink href='#landing-page'><button className='to-top__button'>^</button></AnchorLink>
+      <AnchorLink href='#landing-page'><button className='to-top__button'><i className='to-top__arrow fas fa-angle-double-up'></i></button></AnchorLink>
       </div>
     </div>
   </div>
