@@ -1,0 +1,7 @@
+.social-container {
+  width: 40rem;
+  display: flex;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
