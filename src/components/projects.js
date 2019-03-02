@@ -1,6 +1,5 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
-import Flip from 'react-reveal/Flip';
 
 import './../styles/components/section.css';
 import './../styles/components/projects.css';
@@ -16,7 +15,7 @@ const Projects = () => (
         <hr className='section__hr'/>
       </Fade>
 
-      <Fade bottom cascade delay={1000}>
+      <Fade bottom cascade big>
         <div className='projects'>
           <div className='project'>
             <img className='project__img' src='https://estampasuenos.cl/wp-content/uploads/2017/10/descarga3.png' alt='image of project' />
