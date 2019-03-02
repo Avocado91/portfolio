@@ -6,6 +6,7 @@
 .project {
   flex: 0 0 33.33%;
   position: relative;
+  overflow: hidden;
 }
 
 .project__img {
