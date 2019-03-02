@@ -1,4 +1,7 @@
 import React from 'react';
+import Fade from 'react-reveal/Fade';
+import Flip from 'react-reveal/Flip';
+
 import './../styles/components/about.css';
 import './../styles/components/wrapper.css';
 import './../styles/components/section.css';
@@ -8,13 +11,20 @@ import './../styles/components/logo-layout.css';
 const About = () => (
   <div className='section' id='about'>
     <div className='wrapper'>
-      <h1 className='section__title'>About</h1>
-      <hr className='section__hr'/>
+      <Fade left>
+        <h1 className='section__title'>About</h1>
+      </Fade>
+      <Fade left distance='700px'>
+        <hr className='section__hr'/>
+      </Fade>
+
       <div className='skills flex-container flex-container--full'>
         <div className='skill'>
-          <div className='logo-layout__bkg'>
-            <i className='fas fa-mobile-alt logo-layout__icon'></i>
-          </div>
+          <Flip left>
+            <div className='logo-layout__bkg'>
+              <i className='fas fa-mobile-alt logo-layout__icon'></i>   
+            </div>
+          </Flip>
           <h3 className='skills__title'>Responsive</h3>
           <p className='skills__description'>Always striving to make sure everything looks great on all devices.</p>
         </div>
@@ -40,6 +50,7 @@ const About = () => (
           <p className='skills__description'>Strong preference for clean, easy to use UI/UX.</p>
         </div>
       </div>
+      
       <div className='flex-container'>
         <div className='bio'>
           <img className='bio__img' src='https://upload.wikimedia.org/wikipedia/commons/e/e0/PlaceholderLC.png' alt='A picture of me' />

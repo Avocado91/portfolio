@@ -1,19 +1,42 @@
 .logo-layout__bkg {
-background: #269785;
-width: 5rem;
-height: 5rem;
-margin: auto;
-transform: rotate(45deg);
+  position: relative;
+  width: 100px; 
+  height: 57.74px;
+  background-color: #269785;
+  margin: auto;
+}
+
+.logo-layout__bkg:before,
+.logo-layout__bkg:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.logo-layout__bkg:before {
+  bottom: 100%;
+  border-bottom: 28.87px solid #269785;
+  left: 0;
+}
+
+.logo-layout__bkg:after {
+  top: 100%;
+  width: 0;
+  border-top: 28.87px solid #269785;
+  left: 0;
 }
 
 .logo-layout__icon {
-  font-size: 3rem;
+  font-size: 3.5rem;
   position: relative;
   top: 50%;
-  transform: translateY(-50%) rotate(-45deg);
+  transform: translateY(-50%);
   color: white;
+  z-index: 2;
 }
 
 .logo-layout__icon--rocket {
-  transform: translateY(-37%) rotate(-45deg);
+  transform: translate(-7%, -47%);
 }
