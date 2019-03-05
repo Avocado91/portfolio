@@ -27,8 +27,23 @@
   margin-bottom: 0;
 }
 
+.section__title--overlay {
+  text-align: left;
+  font-size: 2rem;
+  text-transform: none;
+  color: #444;
+}
+
 .section__title--white {
   color: #fff;
+}
+
+.section__subtitle {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #269785;
+  margin-top: .3rem;
+  margin-bottom: 0;
 }
 
 .section__hr {
@@ -41,4 +56,12 @@
 
 .section__hr--contact {
   margin-bottom: 3rem;
+}
+
+.section__hr--overlay {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 1.2rem;
+  margin-top: 1.2rem;
+  border-top: 1px solid #ccc;
 }
