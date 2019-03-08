@@ -29,7 +29,7 @@ const Footer = () => (
           </div>
         </a>
       </div>
-      <div className='copyright'>T.J. Ruggles <i class="far fa-copyright"></i> 2018</div>
+      <div className='copyright'>T.J. Ruggles <i className="far fa-copyright"></i> 2018</div>
     </div>
   </div>
 );
