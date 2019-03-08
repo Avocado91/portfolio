@@ -5,7 +5,7 @@ import './../styles/components/section.css';
 import './../styles/components/projects.css';
 import './../styles/components/button.css'
 
-const Projects = () => (
+const Projects = (props) => (
   <div className='section section--off-white'>
     <div className='wrapper'>
       <Fade left>
@@ -25,7 +25,7 @@ const Projects = () => (
                 <p className='project__tools'>Project tools go here</p>
               </div>
               <div className='project__overlay--slideup'>
-                <button className='button'>Learn More</button>
+                <button className='button' onClick={props.handleOpenModal}>Learn More</button>
               </div>
             </div>
           </div>
@@ -37,7 +37,7 @@ const Projects = () => (
                 <p className='project__tools'>Project tools go here</p>
               </div>
               <div className='project__overlay--slideup'>
-                <button className='button'>Learn More</button>
+                <button className='button' onClick={props.handleOpenModal}>Learn More</button>
               </div>
             </div>
           </div>
@@ -49,7 +49,7 @@ const Projects = () => (
                 <p className='project__tools'>Project tools go here</p>
               </div>
               <div className='project__overlay--slideup'>
-                <button className='button'>Learn More</button>
+                <button className='button' onClick={props.handleOpenModal}>Learn More</button>
               </div>
             </div>
           </div>
@@ -61,7 +61,7 @@ const Projects = () => (
                 <p className='project__tools'>Project tools go here</p>
               </div>
               <div className='project__overlay--slideup'>
-                <button className='button'>Learn More</button>
+                <button className='button' onClick={props.handleOpenModal}>Learn More</button>
               </div>
             </div>
           </div>
@@ -73,7 +73,7 @@ const Projects = () => (
                 <p className='project__tools'>Project tools go here</p>
               </div>
               <div className='project__overlay--slideup'>
-                <button className='button'>Learn More</button>
+                <button className='button' onClick={props.handleOpenModal}>Learn More</button>
               </div>
             </div>
           </div>
@@ -85,7 +85,7 @@ const Projects = () => (
                 <p className='project__tools'>Project tools go here</p>
               </div>
               <div className='project__overlay--slideup'>
-                <button className='button'>Learn More</button>
+                <button className='button' onClick={props.handleOpenModal}>Learn More</button>
               </div>
             </div>
           </div>
@@ -94,5 +94,6 @@ const Projects = () => (
     </div>
   </div>
 )
+
 
 export default Projects;

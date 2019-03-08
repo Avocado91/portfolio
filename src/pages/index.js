@@ -6,13 +6,37 @@ import Modal from './../components/modal'
 import Contact from './../components/contact'
 import Footer from './../components/footer'
 
-export default () => (
-  <div>
-    <HeroBanner></HeroBanner>
-    <About></About>
-    <Projects></Projects>
-    <Modal></Modal>
-    <Contact></Contact>
-    <Footer></Footer> 
-  </div> 
-);
+class App extends React.Component {
+  state = {
+    modalVisible: false
+  };
+  showModal = () => {
+    this.setState({
+      modalVisible: true
+    })
+  };
+  hideModal = () => {
+    this.setState({
+      modalVisible: false
+    })
+  };
+
+  render() {
+    return (
+      <div>
+        <HeroBanner></HeroBanner>
+        <About></About>
+        <Projects handleOpenModal={this.showModal}></Projects>
+        <Modal show={this.state.modalVisible} handleCloseModal={this.hideModal}></Modal>
+        <Contact></Contact>
+        <Footer></Footer> 
+      </div> 
+  
+    )    
+  }
+};
+
+export default App;
+
+
+  
