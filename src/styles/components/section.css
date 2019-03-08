@@ -27,7 +27,7 @@
   margin-bottom: 0;
 }
 
-.section__title--overlay {
+.section__title--modal {
   text-align: left;
   font-size: 2rem;
   text-transform: none;
@@ -58,7 +58,7 @@
   margin-bottom: 3rem;
 }
 
-.section__hr--overlay {
+.section__hr--modal {
   width: 100%;
   margin: auto;
   margin-bottom: 1.2rem;

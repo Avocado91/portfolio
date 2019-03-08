@@ -20,7 +20,7 @@
   margin-top: 1rem;
 }
 
-.button--overlay {
+.button--modal {
   background: #269785;
   border: 1px solid transparent;
   color: white;
@@ -28,7 +28,7 @@
   box-sizing: border-box;
 }
 
-.button--overlay:hover {
+.button--modal:hover {
   background: #fff;
   color: #269785;
   border: 1px solid #269785;
