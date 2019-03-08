@@ -6,7 +6,8 @@ import './../styles/components/button.css';
 
 const Overlay = () => (
   <div className='overlay'>
-    <div className='overlay__container'>     
+    <div className='overlay__container'>
+      <div className='overlay__exit-button'><i className='overlay__exit-icon fas fa-times'></i></div>     
       <img className='overlay__img' src='https://i2.wp.com/amergin.net.au/wp-content/uploads/2017/03/image-placeholder.jpg?ssl=1' alt='placeholder image'></img>
       <div className='wrapper--overlay'>
         <div className='overlay__text-container'>
