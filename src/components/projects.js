@@ -7,7 +7,6 @@ import './../styles/components/button.css'
 
 const Projects = (props) => (
   <div className='section section--off-white'>
-  <p>Hello Now we're in modalJS branch</p>
     <div className='wrapper'>
       <Fade left>
         <h1 className='section__title'>Projects</h1>
