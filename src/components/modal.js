@@ -1,16 +1,22 @@
-import React from 'react'
+import React from 'react';
+import Rodal from 'rodal';
 
 import './../styles/components/modal.css';
 import './../styles/components/wrapper.css';
 import './../styles/components/button.css';
 
 const Modal = (props) => {
-  const showHideClassName = props.show ? 'overlay display-block' : 'overlay display-none';
+  const customStyles = {
+    width: 'auto',
+    height: 'auto'
+  }
 
   return (
-    <div className={showHideClassName}>
+    <Rodal className='overlay' visible={props.isOpen} onClose={props.handleCloseModal} customStyles={customStyles}>
       <div className='modal__container'>
-        <div className='modal__exit-button' onClick={props.handleCloseModal}><i className='modal__exit-icon fas fa-times'></i></div>     
+        <div className='modal__exit-button' onClick={props.handleCloseModal}>
+          <i className='modal__exit-icon fas fa-times'></i>
+        </div>     
         <img className='modal__img' src='https://i2.wp.com/amergin.net.au/wp-content/uploads/2017/03/image-placeholder.jpg?ssl=1' alt='placeholder image'></img>
         <div className='wrapper--modal'>
           <div className='modal__text-container'>
@@ -35,7 +41,7 @@ const Modal = (props) => {
           </div>
         </div>
       </div>
-    </div>
+    </Rodal>
   )
 };
 
