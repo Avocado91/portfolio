@@ -1,58 +1,4 @@
-@keyframes overlayFade {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-.overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: 3;
-  background: rgba(0, 0, 0, .3);
-  animation-name: overlayFade;
-  animation-duration: .3s;
-}
-
-.display-block {
-  display: block;
-}
-
-.display-none {
-  display: none;
-}
-
-@keyframes modalFade {
-  from {
-    transform: scale(.2);
-    opacity: 0;
-  }
-  to {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-
-.modal__container {
-  position: relative;
-  max-width: 700px;
-  margin: auto;
-  margin-top: 3rem;
-  padding-bottom: 25px;
-  background: #fff;
-  -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.45);
-  -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.45);
-  box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.45);
-  animation-name: modalFade;
-  animation-duration: .3s;
-}
-
-.modal__exit-button {
+ .modal__exit-button {
   position: absolute;
   top: 10px;
   right: 10px;
@@ -75,12 +21,12 @@
 .modal__exit-button:hover i {
   color: #252933;
   transform: scale(1.5);
-}
+} 
 
 .modal__img {
   width: 100%;
   border-bottom: 2px solid #333;
-}
+} 
 
 .modal__text-container {
   padding: 1rem 0;

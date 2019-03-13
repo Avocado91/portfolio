@@ -7,9 +7,14 @@ import Contact from './../components/contact'
 import Footer from './../components/footer'
 
 class App extends React.Component {
-  state = {
-    modalVisible: false
-  };
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      modalVisible: false
+    }
+  }
+  
   showModal = () => {
     this.setState({
       modalVisible: true
@@ -27,7 +32,7 @@ class App extends React.Component {
         <HeroBanner></HeroBanner>
         <About></About>
         <Projects handleOpenModal={this.showModal}></Projects>
-        <Modal show={this.state.modalVisible} handleCloseModal={this.hideModal}></Modal>
+        <Modal handleCloseModal={this.hideModal} isOpen={this.state.modalVisible}></Modal>
         <Contact></Contact>
         <Footer></Footer> 
       </div> 
