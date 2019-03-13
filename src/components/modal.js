@@ -9,6 +9,8 @@ import './../styles/components/button.css';
 const Modal = (props) => {
   const modalCustomStyles = {
     padding: 0,
+    width: '700px',
+    height: '90%',
     '-webkit-box-shadow': '0px 0px 10px 2px rgba(0,0,0,0.45)',
     '-moz-box-shadow': '0px 0px 10px 2px rgba(0,0,0,0.45)',
     'box-shadow': '0px 0px 10px 2px rgba(0,0,0,0.45)'
@@ -18,8 +20,6 @@ const Modal = (props) => {
     <Rodal 
       visible={props.isOpen} 
       onClose={props.handleCloseModal} 
-      width={700}
-      height={'90%'}
       closeOnEsc={true}
       showCloseButton={false}
       customStyles={modalCustomStyles}
