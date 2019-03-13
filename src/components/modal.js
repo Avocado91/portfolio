@@ -1,23 +1,36 @@
 import React from 'react';
 import Rodal from 'rodal';
 
+import 'rodal/lib/rodal.css';
 import './../styles/components/modal.css';
 import './../styles/components/wrapper.css';
 import './../styles/components/button.css';
 
 const Modal = (props) => {
-  const customStyles = {
-    width: 'auto',
-    height: 'auto'
+  const modalCustomStyles = {
+    padding: 0,
+    '-webkit-box-shadow': '0px 0px 10px 2px rgba(0,0,0,0.45)',
+    '-moz-box-shadow': '0px 0px 10px 2px rgba(0,0,0,0.45)',
+    'box-shadow': '0px 0px 10px 2px rgba(0,0,0,0.45)'
   }
 
   return (
-    <Rodal className='overlay' visible={props.isOpen} onClose={props.handleCloseModal} customStyles={customStyles}>
-      <div className='modal__container'>
-        <div className='modal__exit-button' onClick={props.handleCloseModal}>
+    <Rodal 
+      visible={props.isOpen} 
+      onClose={props.handleCloseModal} 
+      width={700}
+      height={'90%'}
+      closeOnEsc={true}
+      showCloseButton={false}
+      customStyles={modalCustomStyles}
+    >
+     
+        <div className='modal__exit-button' onClick={props.handleCloseModal.bind(this)}>
           <i className='modal__exit-icon fas fa-times'></i>
         </div>     
-        <img className='modal__img' src='https://i2.wp.com/amergin.net.au/wp-content/uploads/2017/03/image-placeholder.jpg?ssl=1' alt='placeholder image'></img>
+        <div className='modal__img-container'>
+          <img className='modal__img' src='https://i2.wp.com/amergin.net.au/wp-content/uploads/2017/03/image-placeholder.jpg?ssl=1' alt='placeholder image'></img>
+        </div>
         <div className='wrapper--modal'>
           <div className='modal__text-container'>
             <h1 className='section__title section__title--modal'>Title Goes Here</h1>
@@ -40,7 +53,7 @@ const Modal = (props) => {
             </a>
           </div>
         </div>
-      </div>
+      
     </Rodal>
   )
 };
