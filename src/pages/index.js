@@ -36,7 +36,6 @@ class App extends React.Component {
         <Contact></Contact>
         <Footer></Footer> 
       </div> 
-  
     )    
   }
 };
