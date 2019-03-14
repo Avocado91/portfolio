@@ -3,6 +3,10 @@
   margin: auto;
 }
 
+.wrapper--wide {
+  width: 1200px;
+}
+
 .wrapper--modal {
   width: 650px;
   margin: auto;
