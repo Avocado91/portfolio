@@ -6,6 +6,9 @@ import Modal from './../components/modal'
 import Contact from './../components/contact'
 import Footer from './../components/footer'
 
+import 'normalize.css'
+import '../styles/styles.scss'
+
 class App extends React.Component {
   constructor(props) {
     super(props);
