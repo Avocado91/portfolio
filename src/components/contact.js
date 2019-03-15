@@ -3,10 +3,6 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Fade from 'react-reveal/Fade';
 import Jello from 'react-reveal/Jello';
 
-import './../styles/components/section.css';
-import './../styles/components/contact.css';
-import './../styles/components/button.css';
-
 const Contact = () => (
   <div className='section section--dark'>
     <div className='wrapper'>

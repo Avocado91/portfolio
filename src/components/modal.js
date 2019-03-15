@@ -2,9 +2,6 @@ import React from 'react';
 import Rodal from 'rodal';
 
 import 'rodal/lib/rodal.css';
-import './../styles/components/modal.css';
-import './../styles/components/wrapper.css';
-import './../styles/components/button.css';
 
 const Modal = (props) => {
   const modalCustomStyles = {

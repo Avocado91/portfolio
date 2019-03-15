@@ -2,12 +2,6 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 import Flip from 'react-reveal/Flip';
 
-import './../styles/components/about.css';
-import './../styles/components/wrapper.css';
-import './../styles/components/section.css';
-import './../styles/components/flex-container.css';
-import './../styles/components/logo-layout.css';
-
 const About = () => (
   <div className='section' id='about'>
     <div className='wrapper'>

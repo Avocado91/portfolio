@@ -1,10 +1,7 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
-import indecision from './../images/projects/indecision-screencap.png';
 
-import './../styles/components/section.css';
-import './../styles/components/projects.css';
-import './../styles/components/button.css';
+import indecision from './../images/projects/indecision-screencap.png';
 
 const Projects = (props) => {
   const projectDetails = {

@@ -1,6 +1,5 @@
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import './../styles/components/hero-banner.css';
 
 const HeroBanner = () => (
   <div className='hero-banner' id='landing-page'>

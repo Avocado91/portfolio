@@ -1,8 +1,4 @@
 import React from 'react';
-import './../styles/components/footer.css';
-import './../styles/components/section.css';
-import './../styles/components/wrapper.css';
-import './../styles/components/social-link.css';
 
 const Footer = () => (
   <div className='section section--footer'>
