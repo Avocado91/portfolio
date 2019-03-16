@@ -7,8 +7,8 @@
   flex: 0 0 33.33%;
   position: relative;
   overflow: hidden;
+  margin-bottom: -2px; /* offset some white space between the project cards */
 }
-
 .project__img {
   width: 100%;
   height: 100%;

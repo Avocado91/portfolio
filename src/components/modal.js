@@ -5,7 +5,6 @@ const Modal = (props) => (
     <div className='modal__exit-button' onClick={props.handleHideModal}>
       <i className='modal__exit-icon fas fa-times'></i>
     </div>
-
     {props.children}
   </div>
 );
