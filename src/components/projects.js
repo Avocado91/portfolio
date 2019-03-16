@@ -1,5 +1,6 @@
 import React from 'react';
 import Modal from './Modal';
+import Project from './Project';
 import Fade from 'react-reveal/Fade';
 import Rodal from 'rodal';
 
@@ -119,16 +120,14 @@ class Projects extends React.Component {
          <div className='projects'>
             {this.state.projects.map((project) => (
               <div key={project.id} className='project'>  
-                <img className='project__img' src={project.img} alt={project.imgAlt} />
-                <div className='project__overlay-container'>
-                  <div className='project__overlay--slidedown'>
-                    <h3 className='project__title'>{project.title}</h3>
-                    <p className='project__tools'>{project.tools}</p>
-                  </div>
-                  <div className='project__overlay--slideup'>
-                    <button className='button' onClick={() => this.showModal(project.id)}>Learn More</button>
-                  </div>
-                </div>
+                <Project 
+                  projectImg={project.img}
+                  projectImgAlt={project.imgAlt}
+                  projectTitle={project.title}
+                  projectTools={project.tools}
+                  projectId={project.id}
+                  handleShowModal={this.showModal}
+                />
 
                 <Rodal 
                   visible={this.state.openedModal === project.id} 
