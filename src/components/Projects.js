@@ -30,8 +30,8 @@ class Projects extends React.Component {
                         "Having to memorize stats for over 900+ pokemon is just unreasonable",
                     description:
                         "This is a neat little app built with React and powered by the Poke API. One of the first projects I imagined building when I first started programming was some sort of pokemon reference guide so it was pretty awesome finally being able to fulfil that. As well as showing each Pokemon's types and weaknesses it also displays an image, flavor text, and some basic stats for each pokemon searched. Since the Poke API is a pretty robust API I learned a lot working with it and had a lot of fun doing so. Feel free to look at this app's source code on Github or check out the live demo.",
-                    githubLink: "https://github.com/truggles85/Indecision",
-                    siteLink: "https://elastic-engelbart-c8fb32.netlify.com",
+                    githubLink: "https://github.com/truggles85/pokedb",
+                    siteLink: "https://pedantic-booth-4ed1ca.netlify.com",
                 },
                 {
                     id: 2,
